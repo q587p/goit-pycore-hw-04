@@ -1,0 +1,11 @@
+# 1. Створення віртуального оточення:
+python -m venv myenv
+source myenv/bin/activate  # Для Linux/Mac
+myenv\Scripts\Activate.ps1  # Для Windows
+# Можливо доведеться запустити команду на кшталт "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser" для дозволу скриптів
+
+# 2. Встановлення бібліотеки colorama:
+pip install colorama
+
+# 3. Запуск скрипту task3.py:
+python task3.py /шлях/до/вашої/директорії
